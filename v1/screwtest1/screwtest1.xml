@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!--UGC_VERSION = 1024-->
+<XML_DOCUMENT xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <PTC_HEADER>
+        <VENDOR>Parametric Technology Corporation</VENDOR>
+        <PRODUCT>Pro/ENGINEER 3102009440</PRODUCT>
+        <XML_VERSION>1.0</XML_VERSION>
+        <HOST_NAME>ADAMST60</HOST_NAME>
+        <USER>adam</USER>
+        <MACHINE_TYPE> x86 Family 6 Model 14 Stepping 8  GenuineIntel  1662 MHz</MACHINE_TYPE>
+    </PTC_HEADER>
+    <XML_INFO pointer="TRUE">
+        <STYLE_DATA PATH="P:\Program Files\proeWildfire 5.0\proe\prowttools\text\" pointer="TRUE"/>
+        <REPORT_DATA>NULL</REPORT_DATA>
+        <MODEL SOAP-ENC:Array="[4]">
+            <MODEL_ENTRY pointer="TRUE">
+                <MODEL_DATA ID="0" URL="NULL" NAME="ASM1" TYPE="ASSEMBLY" FILE_EXT="ASM" MODEL_SIZE="0"/>
+                <MODEL_OPERS>NULL</MODEL_OPERS>
+                <APPLICATIONS pointer="TRUE">
+                    <SHEET_METAL>NULL</SHEET_METAL>
+                    <MECHANICA pointer="TRUE">
+                        <SIMULATION pointer="TRUE">
+                            <DATABASE pointer="TRUE">
+                                <SIM_REPORT_PREFS>NULL</SIM_REPORT_PREFS>
+                                <SIM_MODEL_INFO>NULL</SIM_MODEL_INFO>
+                                <SIM_MODEL_INST_DATA>NULL</SIM_MODEL_INST_DATA>
+                                <SIM_DB_GAP pointer="TRUE" ICON_NAME="sim_gap_16">
+                                    <GAP_ARRAY SOAP-ENC:Array="[1]">
+                                        <GAP_ARRAY_ENTRY pointer="TRUE" DISTRIBUTION="TOTAL">
+                                            <SIM_OBJECT ID="60" NAME="Gap1" TYPE="SIM_CONTACT" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_gap_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFERENCES pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[2]">
+                                                    <REFS_ARRAY_ENTRY ID="69" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="40" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE2.PRT" REF_MODEL_INT="PICE2.PRT"/>
+                                                    <REFS_ARRAY_ENTRY ID="55" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="39" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE1.PRT" REF_MODEL_INT="PICE1.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFERENCES>
+                                            <Y_DIRECTION TYPE="NONE" pointer="TRUE">
+                                                <VECTOR>NULL</VECTOR>
+                                                <REF>NULL</REF>
+                                            </Y_DIRECTION>
+                                            <CLEARANCE UNIT="mm" VALUE="0" pointer="TRUE"/>
+                                            <AXIAL_STIFFNESS UNIT="N / mm" VALUE="0" pointer="TRUE"/>
+                                            <TRANS_STIFFNESS UNIT="N / mm" VALUE="0" pointer="TRUE"/>
+                                        </GAP_ARRAY_ENTRY>
+                                    </GAP_ARRAY>
+                                </SIM_DB_GAP>
+                                <SIM_DB_CONNECT>NULL</SIM_DB_CONNECT>
+                                <SIM_DB_WELD>NULL</SIM_DB_WELD>
+                                <SIM_DB_MASS_PROPS>NULL</SIM_DB_MASS_PROPS>
+                                <SIM_DB_SPRING_PROPS>NULL</SIM_DB_SPRING_PROPS>
+                                <SIM_DB_BEAM_ORIENT>NULL</SIM_DB_BEAM_ORIENT>
+                                <SIM_DB_BEAM_RELEASE>NULL</SIM_DB_BEAM_RELEASE>
+                                <SIM_DB_MATL_ORIENT>NULL</SIM_DB_MATL_ORIENT>
+                                <SIM_DB_SHELL_PAIR>NULL</SIM_DB_SHELL_PAIR>
+                                <SIM_DB_MATL_ASSIGN pointer="TRUE" ICON_NAME="sim_matlassign_16">
+                                    <MATLASSIGN_ARRAY SOAP-ENC:Array="[3]">
+                                        <MATLASSIGN_ARRAY_ENTRY pointer="TRUE" MATERIAL="AL2014">
+                                            <SIM_OBJECT ID="52" NAME="MaterialAssign1" TYPE="SIM_MATERIAL_ASSIGNMENT" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_matlassign_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFERENCES pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[1]">
+                                                    <REFS_ARRAY_ENTRY ID="-1" NAME="" TYPE="MODEL" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COMPONENT" DBG_REF_ID="" MEMB_ID_TAB="39" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE1.PRT" REF_MODEL_INT="PICE1.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFERENCES>
+                                            <MATL_ORI>NULL</MATL_ORI>
+                                        </MATLASSIGN_ARRAY_ENTRY>
+                                        <MATLASSIGN_ARRAY_ENTRY pointer="TRUE" MATERIAL="STEEL">
+                                            <SIM_OBJECT ID="53" NAME="MaterialAssign2" TYPE="SIM_MATERIAL_ASSIGNMENT" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_matlassign_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFERENCES pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[1]">
+                                                    <REFS_ARRAY_ENTRY ID="-1" NAME="" TYPE="MODEL" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COMPONENT" DBG_REF_ID="" MEMB_ID_TAB="40" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE2.PRT" REF_MODEL_INT="PICE2.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFERENCES>
+                                            <MATL_ORI>NULL</MATL_ORI>
+                                        </MATLASSIGN_ARRAY_ENTRY>
+                                        <MATLASSIGN_ARRAY_ENTRY pointer="TRUE" MATERIAL="STEEL">
+                                            <SIM_OBJECT ID="54" NAME="MaterialAssign3" TYPE="SIM_MATERIAL_ASSIGNMENT" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_matlassign_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFERENCES pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[1]">
+                                                    <REFS_ARRAY_ENTRY ID="-1" NAME="" TYPE="MODEL" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COMPONENT" DBG_REF_ID="" MEMB_ID_TAB="41" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="SCREW-DIN-912-RSCREW-DIN-912-M4.PRT" REF_MODEL_INT="SCREW-DIN-912-RSCREW-DIN-912-M4.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFERENCES>
+                                            <MATL_ORI>NULL</MATL_ORI>
+                                        </MATLASSIGN_ARRAY_ENTRY>
+                                    </MATLASSIGN_ARRAY>
+                                </SIM_DB_MATL_ASSIGN>
+                                <SIM_DB_MASS>NULL</SIM_DB_MASS>
+                                <SIM_DB_SPRING>NULL</SIM_DB_SPRING>
+                                <SIM_DB_BEAM>NULL</SIM_DB_BEAM>
+                                <SIM_DB_SHELL>NULL</SIM_DB_SHELL>
+                                <SIM_DB_SHELL_PROP>NULL</SIM_DB_SHELL_PROP>
+                                <SIM_DB_WLINK>NULL</SIM_DB_WLINK>
+                                <SIM_DB_RLINK>NULL</SIM_DB_RLINK>
+                                <SIM_DB_MESH_CONTROL>NULL</SIM_DB_MESH_CONTROL>
+                                <SIM_DB_STIFF_COND>NULL</SIM_DB_STIFF_COND>
+                                <SIM_DB_BEAM_SECTION>NULL</SIM_DB_BEAM_SECTION>
+                                <SIM_DB_LOADSET pointer="TRUE" ICON_NAME="">
+                                    <LOADSET_ARRAY SOAP-ENC:Array="[2]">
+                                        <LOADSET_ARRAY_ENTRY MODE="STRUCTURAL" TYPE="CONSTR_SET" pointer="TRUE">
+                                            <SIM_OBJECT ID="57" NAME="ConstraintSet1" TYPE="SIM_LOAD_SET" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constrset_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS>NULL</SIM_OBJ_LAYERS>
+                                            </SIM_OBJECT>
+                                            <DESCRIPTION>NULL</DESCRIPTION>
+                                            <LOADS pointer="TRUE">
+                                                <OBJECT_ARRAY SOAP-ENC:Array="[1]">
+                                                    <OBJECT_ARRAY_ENTRY ID="58" NAME="Constraint1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                        <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                                    </OBJECT_ARRAY_ENTRY>
+                                                </OBJECT_ARRAY>
+                                            </LOADS>
+                                        </LOADSET_ARRAY_ENTRY>
+                                        <LOADSET_ARRAY_ENTRY MODE="STRUCTURAL" TYPE="LOAD_SET" pointer="TRUE">
+                                            <SIM_OBJECT ID="55" NAME="LoadSet1" TYPE="SIM_LOAD_SET" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_loadset_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS>NULL</SIM_OBJ_LAYERS>
+                                            </SIM_OBJECT>
+                                            <DESCRIPTION>NULL</DESCRIPTION>
+                                            <LOADS pointer="TRUE">
+                                                <OBJECT_ARRAY SOAP-ENC:Array="[1]">
+                                                    <OBJECT_ARRAY_ENTRY ID="56" NAME="Load1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_load_force_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                        <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                                    </OBJECT_ARRAY_ENTRY>
+                                                </OBJECT_ARRAY>
+                                            </LOADS>
+                                        </LOADSET_ARRAY_ENTRY>
+                                    </LOADSET_ARRAY>
+                                </SIM_DB_LOADSET>
+                                <SIM_DB_LOAD pointer="TRUE" ICON_NAME="">
+                                    <LOAD_ARRAY SOAP-ENC:Array="[2]">
+                                        <LOAD_ARRAY_ENTRY pointer="TRUE">
+                                            <SIM_OBJECT ID="58" NAME="Constraint1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFS pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[1]">
+                                                    <REFS_ARRAY_ENTRY ID="50" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="39" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE1.PRT" REF_MODEL_INT="PICE1.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFS>
+                                            <DATA EXPR="" MODE="STRUCTURAL" TYPE="CONSTRAINT" pointer="TRUE" LOAD_TYPE="DISPLACEMENT">
+                                                <SCALAR>NULL</SCALAR>
+                                                <VECTOR>NULL</VECTOR>
+                                                <DISP_DATA TYPE="REGULAR" pointer="TRUE" CSYS_TYPE="CARTESIAN">
+                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="ASM1.ASM" REF_MODEL_INT="ASM1.ASM"/>
+                                                    <TRANSLATION pointer="TRUE">
+                                                        <LONG_SCALAR_ARRAY SOAP-ENC:Array="[3]">
+                                                            <LONG_SCALAR_ARRAY_ENTRY TYPE="NULL" PREFIX="Dx" pointer="TRUE">
+                                                                <MAG>NULL</MAG>
+                                                                <FUNC>NULL</FUNC>
+                                                                <EXT_FIELD>NULL</EXT_FIELD>
+                                                            </LONG_SCALAR_ARRAY_ENTRY>
+                                                            <LONG_SCALAR_ARRAY_ENTRY TYPE="NULL" PREFIX="Dy" pointer="TRUE">
+                                                                <MAG>NULL</MAG>
+                                                                <FUNC>NULL</FUNC>
+                                                                <EXT_FIELD>NULL</EXT_FIELD>
+                                                            </LONG_SCALAR_ARRAY_ENTRY>
+                                                            <LONG_SCALAR_ARRAY_ENTRY TYPE="NULL" PREFIX="Dz" pointer="TRUE">
+                                                                <MAG>NULL</MAG>
+                                                                <FUNC>NULL</FUNC>
+                                                                <EXT_FIELD>NULL</EXT_FIELD>
+                                                            </LONG_SCALAR_ARRAY_ENTRY>
+                                                        </LONG_SCALAR_ARRAY>
+                                                    </TRANSLATION>
+                                                    <ROTATION pointer="TRUE">
+                                                        <LONG_SCALAR_ARRAY SOAP-ENC:Array="[3]">
+                                                            <LONG_SCALAR_ARRAY_ENTRY TYPE="NULL" PREFIX="Rx" pointer="TRUE">
+                                                                <MAG>NULL</MAG>
+                                                                <FUNC>NULL</FUNC>
+                                                                <EXT_FIELD>NULL</EXT_FIELD>
+                                                            </LONG_SCALAR_ARRAY_ENTRY>
+                                                            <LONG_SCALAR_ARRAY_ENTRY TYPE="NULL" PREFIX="Ry" pointer="TRUE">
+                                                                <MAG>NULL</MAG>
+                                                                <FUNC>NULL</FUNC>
+                                                                <EXT_FIELD>NULL</EXT_FIELD>
+                                                            </LONG_SCALAR_ARRAY_ENTRY>
+                                                            <LONG_SCALAR_ARRAY_ENTRY TYPE="NULL" PREFIX="Rz" pointer="TRUE">
+                                                                <MAG>NULL</MAG>
+                                                                <FUNC>NULL</FUNC>
+                                                                <EXT_FIELD>NULL</EXT_FIELD>
+                                                            </LONG_SCALAR_ARRAY_ENTRY>
+                                                        </LONG_SCALAR_ARRAY>
+                                                    </ROTATION>
+                                                    <PIN_DATA>NULL</PIN_DATA>
+                                                </DISP_DATA>
+                                                <SYMMETRY>NULL</SYMMETRY>
+                                                <FORCE>NULL</FORCE>
+                                                <BEARING>NULL</BEARING>
+                                                <CENTRIFUGAL_DATA>NULL</CENTRIFUGAL_DATA>
+                                                <GRAVITY_DATA>NULL</GRAVITY_DATA>
+                                                <STR_TEMP_DATA>NULL</STR_TEMP_DATA>
+                                                <TM_DATA>NULL</TM_DATA>
+                                                <CONVECTION_DATA>NULL</CONVECTION_DATA>
+                                                <EXT_TEMP_DATA>NULL</EXT_TEMP_DATA>
+                                                <MECT_TEMP_DATA>NULL</MECT_TEMP_DATA>
+                                                <RADIATION_DATA>NULL</RADIATION_DATA>
+                                                <HEAT_DATA>NULL</HEAT_DATA>
+                                            </DATA>
+                                        </LOAD_ARRAY_ENTRY>
+                                        <LOAD_ARRAY_ENTRY pointer="TRUE">
+                                            <SIM_OBJECT ID="56" NAME="Load1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_load_force_16" MODEL_EXT_NAME="ASM1.ASM" MODEL_INT_NAME="ASM1.ASM">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFS pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[2]">
+                                                    <REFS_ARRAY_ENTRY ID="96" NAME="" TYPE="EDGE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="EDGE" DBG_REF_ID="" MEMB_ID_TAB="40" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE2.PRT" REF_MODEL_INT="PICE2.PRT"/>
+                                                    <REFS_ARRAY_ENTRY ID="70" NAME="" TYPE="EDGE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="EDGE" DBG_REF_ID="" MEMB_ID_TAB="40" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="PICE2.PRT" REF_MODEL_INT="PICE2.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFS>
+                                            <DATA EXPR="" MODE="STRUCTURAL" TYPE="LOAD" pointer="TRUE" LOAD_TYPE="FORCE">
+                                                <SCALAR>NULL</SCALAR>
+                                                <VECTOR>NULL</VECTOR>
+                                                <DISP_DATA>NULL</DISP_DATA>
+                                                <SYMMETRY>NULL</SYMMETRY>
+                                                <FORCE INC_DIM="NO" pointer="TRUE" DISTR_TYPE="TOTAL" VARIATION_TYPE="UNIFORM">
+                                                    <FUNC>NULL</FUNC>
+                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="ASM1.ASM" DEF_MODEL_INT="ASM1.ASM" REF_MODEL_EXT="ASM1.ASM" REF_MODEL_INT="ASM1.ASM"/>
+                                                    <FORCE UNIT="N" pointer="TRUE" DIR_TYPE="DIR_BY_VEC" CSYS_TYPE="CARTESIAN" MAGNITUDE="">
+                                                        <DIR1 UNIT="NULL" VALUE="0" pointer="TRUE"/>
+                                                        <DIR2 UNIT="NULL" VALUE="0" pointer="TRUE"/>
+                                                        <DIR3 UNIT="NULL" VALUE="1000" pointer="TRUE"/>
+                                                        <FIRST_PT>NULL</FIRST_PT>
+                                                        <SECOND_PT>NULL</SECOND_PT>
+                                                    </FORCE>
+                                                    <MOMENT UNIT="mm N" pointer="TRUE" DIR_TYPE="DIR_BY_VEC" CSYS_TYPE="CARTESIAN" MAGNITUDE="">
+                                                        <DIR1 UNIT="NULL" VALUE="0" pointer="TRUE"/>
+                                                        <DIR2 UNIT="NULL" VALUE="0" pointer="TRUE"/>
+                                                        <DIR3 UNIT="NULL" VALUE="0" pointer="TRUE"/>
+                                                        <FIRST_PT>NULL</FIRST_PT>
+                                                        <SECOND_PT>NULL</SECOND_PT>
+                                                    </MOMENT>
+                                                    <REF_POINT>NULL</REF_POINT>
+                                                    <FORCE_OPT>NULL</FORCE_OPT>
+                                                    <MOMENT_OPT>NULL</MOMENT_OPT>
+                                                </FORCE>
+                                                <BEARING>NULL</BEARING>
+                                                <CENTRIFUGAL_DATA>NULL</CENTRIFUGAL_DATA>
+                                                <GRAVITY_DATA>NULL</GRAVITY_DATA>
+                                                <STR_TEMP_DATA>NULL</STR_TEMP_DATA>
+                                                <TM_DATA>NULL</TM_DATA>
+                                                <CONVECTION_DATA>NULL</CONVECTION_DATA>
+                                                <EXT_TEMP_DATA>NULL</EXT_TEMP_DATA>
+                                                <MECT_TEMP_DATA>NULL</MECT_TEMP_DATA>
+                                                <RADIATION_DATA>NULL</RADIATION_DATA>
+                                                <HEAT_DATA>NULL</HEAT_DATA>
+                                            </DATA>
+                                        </LOAD_ARRAY_ENTRY>
+                                    </LOAD_ARRAY>
+                                </SIM_DB_LOAD>
+                                <SIM_DB_ANALYSIS>NULL</SIM_DB_ANALYSIS>
+                                <SIM_DB_MEASURE>NULL</SIM_DB_MEASURE>
+                                <SIM_DB_MATERIAL pointer="TRUE" ICON_NAME="sim_material_16">
+                                    <MATERIAL_ARRAY SOAP-ENC:Array="[2]">
+                                        <MATERIAL_ARRAY_ENTRY NAME="AL2014" TYPE="ISOTROPIC" MATL_ID="-1" pointer="TRUE" SUB_TYPE="LINEAR" ICON_NAME="sim_material_16" MATL_MODEL="NULL" IS_ASSIGNED="0" FAIL_CRITERIA="NULL">
+                                            <DESCRIPTION>NULL</DESCRIPTION>
+                                            <YOUNGS_MOD pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="MPa" VALUE="73084.4" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </YOUNGS_MOD>
+                                            <P_RATIO pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="" VALUE="0.33" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </P_RATIO>
+                                            <SHEAR_STIFFNESS pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="MPa" VALUE="27475.3" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </SHEAR_STIFFNESS>
+                                            <THERMAL_EXPANSION pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="/C" VALUE="2.304e-05" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </THERMAL_EXPANSION>
+                                            <THERMAL_SOFTENING>NULL</THERMAL_SOFTENING>
+                                            <TENSILE_STRENGTH>NULL</TENSILE_STRENGTH>
+                                            <COMP_STRENGTH>NULL</COMP_STRENGTH>
+                                            <CONDUCTIVITY pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="N /(sec C)" VALUE="192.163" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </CONDUCTIVITY>
+                                            <DENSITY UNIT="tonne/mm^3" VALUE="2.79355e-09" pointer="TRUE"/>
+                                            <REF_TEMP>NULL</REF_TEMP>
+                                            <DAMPING_COEFF>NULL</DAMPING_COEFF>
+                                            <YIELD_STRESS>NULL</YIELD_STRESS>
+                                            <SHEAR_STRENGTH>NULL</SHEAR_STRENGTH>
+                                            <F12>NULL</F12>
+                                            <SPECIFIC_HEAT UNIT="mm^2/(sec^2 C)" VALUE="9.63753e+08" pointer="TRUE"/>
+                                            <C10>NULL</C10>
+                                            <C01>NULL</C01>
+                                            <C20>NULL</C20>
+                                            <C02>NULL</C02>
+                                            <C11>NULL</C11>
+                                            <D1>NULL</D1>
+                                            <D2>NULL</D2>
+                                            <D3>NULL</D3>
+                                            <MODULUS>NULL</MODULUS>
+                                            <EXPONENT>NULL</EXPONENT>
+                                        </MATERIAL_ARRAY_ENTRY>
+                                        <MATERIAL_ARRAY_ENTRY NAME="STEEL" TYPE="ISOTROPIC" MATL_ID="-1" pointer="TRUE" SUB_TYPE="LINEAR" ICON_NAME="sim_material_16" MATL_MODEL="NULL" IS_ASSIGNED="0" FAIL_CRITERIA="NULL">
+                                            <DESCRIPTION>NULL</DESCRIPTION>
+                                            <YOUNGS_MOD pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="MPa" VALUE="199948" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </YOUNGS_MOD>
+                                            <P_RATIO pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="" VALUE="0.27" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </P_RATIO>
+                                            <SHEAR_STIFFNESS pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="MPa" VALUE="78719.7" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </SHEAR_STIFFNESS>
+                                            <THERMAL_EXPANSION pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="/C" VALUE="1.17e-05" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </THERMAL_EXPANSION>
+                                            <THERMAL_SOFTENING>NULL</THERMAL_SOFTENING>
+                                            <TENSILE_STRENGTH>NULL</TENSILE_STRENGTH>
+                                            <COMP_STRENGTH>NULL</COMP_STRENGTH>
+                                            <CONDUCTIVITY pointer="TRUE">
+                                                <SCALAR_ARRAY SOAP-ENC:Array="[1]">
+                                                    <SCALAR_ARRAY_ENTRY UNIT="N /(sec C)" VALUE="43.0125" pointer="TRUE"/>
+                                                </SCALAR_ARRAY>
+                                            </CONDUCTIVITY>
+                                            <DENSITY UNIT="tonne/mm^3" VALUE="7.82708e-09" pointer="TRUE"/>
+                                            <REF_TEMP>NULL</REF_TEMP>
+                                            <DAMPING_COEFF>NULL</DAMPING_COEFF>
+                                            <YIELD_STRESS>NULL</YIELD_STRESS>
+                                            <SHEAR_STRENGTH>NULL</SHEAR_STRENGTH>
+                                            <F12>NULL</F12>
+                                            <SPECIFIC_HEAT UNIT="mm^2/(sec^2 C)" VALUE="4.73341e+08" pointer="TRUE"/>
+                                            <C10>NULL</C10>
+                                            <C01>NULL</C01>
+                                            <C20>NULL</C20>
+                                            <C02>NULL</C02>
+                                            <C11>NULL</C11>
+                                            <D1>NULL</D1>
+                                            <D2>NULL</D2>
+                                            <D3>NULL</D3>
+                                            <MODULUS>NULL</MODULUS>
+                                            <EXPONENT>NULL</EXPONENT>
+                                        </MATERIAL_ARRAY_ENTRY>
+                                    </MATERIAL_ARRAY>
+                                </SIM_DB_MATERIAL>
+                                <SIM_DB_BOLT>NULL</SIM_DB_BOLT>
+                            </DATABASE>
+                            <TOLERANCE_REPORT>NULL</TOLERANCE_REPORT>
+                            <MESH_DB>NULL</MESH_DB>
+                            <OUTP_HPS_INFO>NULL</OUTP_HPS_INFO>
+                            <DIFF_UNITS_REPORT>NULL</DIFF_UNITS_REPORT>
+                            <MESH_UULIST_INFO>NULL</MESH_UULIST_INFO>
+                        </SIMULATION>
+                    </MECHANICA>
+                </APPLICATIONS>
+                <P_OBJECT>NULL</P_OBJECT>
+            </MODEL_ENTRY>
+            <MODEL_ENTRY pointer="TRUE">
+                <MODEL_DATA ID="0" URL="NULL" NAME="PICE1" TYPE="PART" FILE_EXT="PRT" MODEL_SIZE="0"/>
+                <MODEL_OPERS>NULL</MODEL_OPERS>
+                <APPLICATIONS pointer="TRUE">
+                    <SHEET_METAL>NULL</SHEET_METAL>
+                    <MECHANICA pointer="TRUE">
+                        <SIMULATION pointer="TRUE">
+                            <DATABASE pointer="TRUE">
+                                <SIM_REPORT_PREFS>NULL</SIM_REPORT_PREFS>
+                                <SIM_MODEL_INFO>NULL</SIM_MODEL_INFO>
+                                <SIM_MODEL_INST_DATA>NULL</SIM_MODEL_INST_DATA>
+                                <SIM_DB_GAP>NULL</SIM_DB_GAP>
+                                <SIM_DB_CONNECT>NULL</SIM_DB_CONNECT>
+                                <SIM_DB_WELD>NULL</SIM_DB_WELD>
+                                <SIM_DB_MASS_PROPS>NULL</SIM_DB_MASS_PROPS>
+                                <SIM_DB_SPRING_PROPS>NULL</SIM_DB_SPRING_PROPS>
+                                <SIM_DB_BEAM_ORIENT>NULL</SIM_DB_BEAM_ORIENT>
+                                <SIM_DB_BEAM_RELEASE>NULL</SIM_DB_BEAM_RELEASE>
+                                <SIM_DB_MATL_ORIENT>NULL</SIM_DB_MATL_ORIENT>
+                                <SIM_DB_SHELL_PAIR>NULL</SIM_DB_SHELL_PAIR>
+                                <SIM_DB_MATL_ASSIGN>NULL</SIM_DB_MATL_ASSIGN>
+                                <SIM_DB_MASS>NULL</SIM_DB_MASS>
+                                <SIM_DB_SPRING>NULL</SIM_DB_SPRING>
+                                <SIM_DB_BEAM>NULL</SIM_DB_BEAM>
+                                <SIM_DB_SHELL>NULL</SIM_DB_SHELL>
+                                <SIM_DB_SHELL_PROP>NULL</SIM_DB_SHELL_PROP>
+                                <SIM_DB_WLINK>NULL</SIM_DB_WLINK>
+                                <SIM_DB_RLINK>NULL</SIM_DB_RLINK>
+                                <SIM_DB_MESH_CONTROL>NULL</SIM_DB_MESH_CONTROL>
+                                <SIM_DB_STIFF_COND>NULL</SIM_DB_STIFF_COND>
+                                <SIM_DB_BEAM_SECTION>NULL</SIM_DB_BEAM_SECTION>
+                                <SIM_DB_LOADSET>NULL</SIM_DB_LOADSET>
+                                <SIM_DB_LOAD>NULL</SIM_DB_LOAD>
+                                <SIM_DB_ANALYSIS>NULL</SIM_DB_ANALYSIS>
+                                <SIM_DB_MEASURE>NULL</SIM_DB_MEASURE>
+                                <SIM_DB_MATERIAL pointer="TRUE" ICON_NAME="sim_material_16"/>
+                                <SIM_DB_BOLT>NULL</SIM_DB_BOLT>
+                            </DATABASE>
+                            <TOLERANCE_REPORT>NULL</TOLERANCE_REPORT>
+                            <MESH_DB>NULL</MESH_DB>
+                            <OUTP_HPS_INFO>NULL</OUTP_HPS_INFO>
+                            <DIFF_UNITS_REPORT>NULL</DIFF_UNITS_REPORT>
+                            <MESH_UULIST_INFO>NULL</MESH_UULIST_INFO>
+                        </SIMULATION>
+                    </MECHANICA>
+                </APPLICATIONS>
+                <P_OBJECT>NULL</P_OBJECT>
+            </MODEL_ENTRY>
+            <MODEL_ENTRY pointer="TRUE">
+                <MODEL_DATA ID="0" URL="NULL" NAME="PICE2" TYPE="PART" FILE_EXT="PRT" MODEL_SIZE="0"/>
+                <MODEL_OPERS>NULL</MODEL_OPERS>
+                <APPLICATIONS pointer="TRUE">
+                    <SHEET_METAL>NULL</SHEET_METAL>
+                    <MECHANICA pointer="TRUE">
+                        <SIMULATION pointer="TRUE">
+                            <DATABASE pointer="TRUE">
+                                <SIM_REPORT_PREFS>NULL</SIM_REPORT_PREFS>
+                                <SIM_MODEL_INFO>NULL</SIM_MODEL_INFO>
+                                <SIM_MODEL_INST_DATA>NULL</SIM_MODEL_INST_DATA>
+                                <SIM_DB_GAP>NULL</SIM_DB_GAP>
+                                <SIM_DB_CONNECT>NULL</SIM_DB_CONNECT>
+                                <SIM_DB_WELD>NULL</SIM_DB_WELD>
+                                <SIM_DB_MASS_PROPS>NULL</SIM_DB_MASS_PROPS>
+                                <SIM_DB_SPRING_PROPS>NULL</SIM_DB_SPRING_PROPS>
+                                <SIM_DB_BEAM_ORIENT>NULL</SIM_DB_BEAM_ORIENT>
+                                <SIM_DB_BEAM_RELEASE>NULL</SIM_DB_BEAM_RELEASE>
+                                <SIM_DB_MATL_ORIENT>NULL</SIM_DB_MATL_ORIENT>
+                                <SIM_DB_SHELL_PAIR>NULL</SIM_DB_SHELL_PAIR>
+                                <SIM_DB_MATL_ASSIGN>NULL</SIM_DB_MATL_ASSIGN>
+                                <SIM_DB_MASS>NULL</SIM_DB_MASS>
+                                <SIM_DB_SPRING>NULL</SIM_DB_SPRING>
+                                <SIM_DB_BEAM>NULL</SIM_DB_BEAM>
+                                <SIM_DB_SHELL>NULL</SIM_DB_SHELL>
+                                <SIM_DB_SHELL_PROP>NULL</SIM_DB_SHELL_PROP>
+                                <SIM_DB_WLINK>NULL</SIM_DB_WLINK>
+                                <SIM_DB_RLINK>NULL</SIM_DB_RLINK>
+                                <SIM_DB_MESH_CONTROL>NULL</SIM_DB_MESH_CONTROL>
+                                <SIM_DB_STIFF_COND>NULL</SIM_DB_STIFF_COND>
+                                <SIM_DB_BEAM_SECTION>NULL</SIM_DB_BEAM_SECTION>
+                                <SIM_DB_LOADSET>NULL</SIM_DB_LOADSET>
+                                <SIM_DB_LOAD>NULL</SIM_DB_LOAD>
+                                <SIM_DB_ANALYSIS>NULL</SIM_DB_ANALYSIS>
+                                <SIM_DB_MEASURE>NULL</SIM_DB_MEASURE>
+                                <SIM_DB_MATERIAL pointer="TRUE" ICON_NAME="sim_material_16"/>
+                                <SIM_DB_BOLT>NULL</SIM_DB_BOLT>
+                            </DATABASE>
+                            <TOLERANCE_REPORT>NULL</TOLERANCE_REPORT>
+                            <MESH_DB>NULL</MESH_DB>
+                            <OUTP_HPS_INFO>NULL</OUTP_HPS_INFO>
+                            <DIFF_UNITS_REPORT>NULL</DIFF_UNITS_REPORT>
+                            <MESH_UULIST_INFO>NULL</MESH_UULIST_INFO>
+                        </SIMULATION>
+                    </MECHANICA>
+                </APPLICATIONS>
+                <P_OBJECT>NULL</P_OBJECT>
+            </MODEL_ENTRY>
+            <MODEL_ENTRY pointer="TRUE">
+                <MODEL_DATA ID="0" URL="NULL" NAME="SCREW-DIN-912-RSCREW-DIN-912-M4" TYPE="PART" FILE_EXT="PRT" MODEL_SIZE="0"/>
+                <MODEL_OPERS>NULL</MODEL_OPERS>
+                <APPLICATIONS pointer="TRUE">
+                    <SHEET_METAL>NULL</SHEET_METAL>
+                    <MECHANICA pointer="TRUE">
+                        <SIMULATION pointer="TRUE">
+                            <DATABASE pointer="TRUE">
+                                <SIM_REPORT_PREFS>NULL</SIM_REPORT_PREFS>
+                                <SIM_MODEL_INFO>NULL</SIM_MODEL_INFO>
+                                <SIM_MODEL_INST_DATA>NULL</SIM_MODEL_INST_DATA>
+                                <SIM_DB_GAP>NULL</SIM_DB_GAP>
+                                <SIM_DB_CONNECT>NULL</SIM_DB_CONNECT>
+                                <SIM_DB_WELD>NULL</SIM_DB_WELD>
+                                <SIM_DB_MASS_PROPS>NULL</SIM_DB_MASS_PROPS>
+                                <SIM_DB_SPRING_PROPS>NULL</SIM_DB_SPRING_PROPS>
+                                <SIM_DB_BEAM_ORIENT>NULL</SIM_DB_BEAM_ORIENT>
+                                <SIM_DB_BEAM_RELEASE>NULL</SIM_DB_BEAM_RELEASE>
+                                <SIM_DB_MATL_ORIENT>NULL</SIM_DB_MATL_ORIENT>
+                                <SIM_DB_SHELL_PAIR>NULL</SIM_DB_SHELL_PAIR>
+                                <SIM_DB_MATL_ASSIGN>NULL</SIM_DB_MATL_ASSIGN>
+                                <SIM_DB_MASS>NULL</SIM_DB_MASS>
+                                <SIM_DB_SPRING>NULL</SIM_DB_SPRING>
+                                <SIM_DB_BEAM>NULL</SIM_DB_BEAM>
+                                <SIM_DB_SHELL>NULL</SIM_DB_SHELL>
+                                <SIM_DB_SHELL_PROP>NULL</SIM_DB_SHELL_PROP>
+                                <SIM_DB_WLINK>NULL</SIM_DB_WLINK>
+                                <SIM_DB_RLINK>NULL</SIM_DB_RLINK>
+                                <SIM_DB_MESH_CONTROL>NULL</SIM_DB_MESH_CONTROL>
+                                <SIM_DB_STIFF_COND>NULL</SIM_DB_STIFF_COND>
+                                <SIM_DB_BEAM_SECTION>NULL</SIM_DB_BEAM_SECTION>
+                                <SIM_DB_LOADSET>NULL</SIM_DB_LOADSET>
+                                <SIM_DB_LOAD>NULL</SIM_DB_LOAD>
+                                <SIM_DB_ANALYSIS>NULL</SIM_DB_ANALYSIS>
+                                <SIM_DB_MEASURE>NULL</SIM_DB_MEASURE>
+                                <SIM_DB_MATERIAL pointer="TRUE" ICON_NAME="sim_material_16"/>
+                                <SIM_DB_BOLT>NULL</SIM_DB_BOLT>
+                            </DATABASE>
+                            <TOLERANCE_REPORT>NULL</TOLERANCE_REPORT>
+                            <MESH_DB>NULL</MESH_DB>
+                            <OUTP_HPS_INFO>NULL</OUTP_HPS_INFO>
+                            <DIFF_UNITS_REPORT>NULL</DIFF_UNITS_REPORT>
+                            <MESH_UULIST_INFO>NULL</MESH_UULIST_INFO>
+                        </SIMULATION>
+                    </MECHANICA>
+                </APPLICATIONS>
+                <P_OBJECT>NULL</P_OBJECT>
+            </MODEL_ENTRY>
+        </MODEL>
+    </XML_INFO>
+</XML_DOCUMENT>

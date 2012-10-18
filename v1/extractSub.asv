@@ -1,0 +1,6 @@
+function extractSub(filename,K,Fbn,x,y,z)
+[U, LN] = parseDisp('C:\Users\work\Documents\bearing analysis\beam_end\beam_end.ans',4551,0,0,1000);
+I=eye(6);
+for i=1:6
+    bc2=[bc; LN U(LN,:)*I(:,i)];
+    a = solveq(K,Fb,bc);
