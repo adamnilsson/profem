@@ -10,4 +10,4 @@ A few functions in calfem is still used. Please download and add calfem to Matla
 http://www.solid.lth.se/fileadmin/hallfasthetslara/calfem.zip
 
 ## Static Displacement and Stress
-[[img/massbeam.png]]
+![img/massbeam.png](img/massbeam.png)
